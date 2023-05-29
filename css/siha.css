@@ -750,7 +750,7 @@ ul {
   top: 0;
   left: 80px;
   width: 50px;
-  height: calc(100% + 0.4px);
+  height: 100%;
   transform: skewX(-30deg);
 }
 .services .box .info a {
