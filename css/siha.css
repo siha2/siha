@@ -837,6 +837,12 @@ ul {
   position: relative;
   z-index: 1;
 }
+@media (max-width: 767px) {
+  .work-steps .info .box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .work-steps .info .box::before {
   content: "";
   background-color: #ededed;
@@ -856,6 +862,11 @@ ul {
 .work-steps .info .box img {
   width: 64px;
   margin-right: 30px;
+}
+@media (max-width: 767px) {
+  .work-steps .info .box img {
+    margin: 0 0 30px;
+  }
 }
 .work-steps .info .box h3 {
   margin: 0;
