@@ -1300,6 +1300,7 @@ ul {
   align-items: center;
   justify-content: center;
   flex-basis: 50%;
+  padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   .discount .form {
