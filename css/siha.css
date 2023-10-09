@@ -832,6 +832,7 @@ ul {
   background-color: var(--main-color);
   top: 0;
   left: 0;
+  transition: var(--main-transition);
 }
 /* end skills */
 /* start work steps */
@@ -947,7 +948,7 @@ ul {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
   text-align: center;
-  width: 75px;
+  /* width: 75px; */
   transition: var(--main-transition);
 }
 .events .info .time .unit span {
